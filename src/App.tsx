@@ -56,8 +56,21 @@ function App() {
             <span className='text-green-tn text-3xl'>Hi, I'm</span>
             <h1 className='text-4xl text-white'>Trevor Nuckles</h1>
             <p className='mt-8'>I'm a skilled IT professional with a Bachelor of Science in Information Technology and experience in programming, systems management, and team leadership.</p>
+            <a className='Download w-fit px-4 py-2 rounded-lg mt-4 font-semibold transition hover:-translate-y-1' href='/resume_nuckles_trevor.pdf'>View my resume</a>
           </div>
           <img className='w-64 h-64 rounded-full' src={TREVOR} alt='Trevor Nuckles' />
+        </div>
+        <div className='flex flex-col w-1/2 gap-6'>
+          <h2 className="text-3xl border-b border-green-tn mt-12">Certifications</h2>
+          <div className='flex flex-col flex-wrap gap-4'>
+            {certs.map(({name, date}) => (
+              <div key={name+date} className='flex flex-col'>
+                <h3 className='text-white font-medium'>{name}</h3>
+                <p className='text-green-tn text-xs'>{date}</p>
+              </div>
+            ))}
+          </div>
+          
         </div>
       </main>
     </div>

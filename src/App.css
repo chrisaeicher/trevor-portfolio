@@ -15,3 +15,9 @@ html {
 h1,h2,h3,h4,h5,h6 {
     font-family: "Quicksand", sans-serif;
 }
+
+.Download {
+    background: rgb(29,111,128);
+    background: linear-gradient(160deg, rgba(29,111,128,1) 42%, rgba(0,255,139,1) 100%);
+    transition: all 0.2s;
+}
