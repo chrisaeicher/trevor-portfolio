@@ -56,7 +56,7 @@ function App() {
             <span className='text-green-tn text-3xl'>Hi, I'm</span>
             <h1 className='text-4xl text-white'>Trevor Nuckles</h1>
             <p className='mt-8'>I'm a skilled IT professional with a Bachelor of Science in Information Technology and experience in programming, systems management, and team leadership.</p>
-            <a className='Download w-fit px-4 py-2 rounded-lg mt-4 font-semibold transition hover:-translate-y-1' href='/resume_nuckles_trevor.pdf'>View my resume</a>
+            <a className='Download w-fit px-4 py-2 rounded-lg mt-4 font-semibold transition hover:-translate-y-1' href='/resume_nuckles_trevor.pdf' download={true}>Download my resume</a>
           </div>
           <img className='w-64 h-64 rounded-full' src={TREVOR} alt='Trevor Nuckles' />
         </div>
