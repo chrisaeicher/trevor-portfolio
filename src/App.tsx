@@ -80,7 +80,9 @@ function App() {
 						<div className='flex flex-col'>
 							<h3 className='text-white font-medium'>Python Developer</h3>
 							<p className='text-xs text-gray-300'>
-								<a href='basicinvite.com'>basicinvite.com</a>
+								<a href='https://www.basicinvite.com' target='_blank'>
+									basicinvite.com
+								</a>
 							</p>
 							<p className='text-orange-light-tn text-xs font-bold'>
 								February 2021 - Present
@@ -89,7 +91,9 @@ function App() {
 						<div className='flex flex-col'>
 							<h3 className='text-white font-medium'>General Manager</h3>
 							<p className='text-xs text-gray-300'>
-								<a href='basicinvite.com'>basicinvite.com</a>
+								<a href='https://www.basicinvite.com' target='_blank'>
+									basicinvite.com
+								</a>
 							</p>
 							<p className='text-orange-light-tn text-xs font-bold'>
 								September 2016 - Present
@@ -100,7 +104,7 @@ function App() {
 								Customer Service / Help Desk
 							</h3>
 							<p className='text-xs text-gray-300'>
-								<a href='basicinvite.com'>Steton Technology (now RizePoint)</a>
+								Steton Technology (now RizePoint)
 							</p>
 							<p className='text-orange-light-tn text-xs font-bold'>
 								January 2015 - September 2016
