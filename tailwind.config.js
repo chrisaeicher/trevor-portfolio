@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: { 
       colors: {
-        'green': {
-          'tn': '#00ff8b',
+        'orange': {
+          'tn': '#DF5E24'
+        },
+        'red': {
+          'tn': '#C00425'
         }
       },
     },

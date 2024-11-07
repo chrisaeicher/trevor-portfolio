@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 html {
-    background: rgb(29,111,128);
-    background: linear-gradient(160deg, rgba(29,111,128,1) 42%, rgba(0,255,139,1) 100%);
+   background: rgb(223,94,36);
+    background: linear-gradient(160deg, rgba(223,94,36,1) 42%, rgba(192,4,37,1) 100%);
     background-repeat: no-repeat;
     min-height: 100vh;
     font-family: "Lato", serif;
@@ -14,10 +14,4 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "Quicksand", sans-serif;
-}
-
-.Download {
-    background: rgb(29,111,128);
-    background: linear-gradient(160deg, rgba(29,111,128,1) 42%, rgba(0,255,139,1) 100%);
-    transition: all 0.2s;
 }
