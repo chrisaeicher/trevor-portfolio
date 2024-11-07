@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 html {
-   background: rgb(223,94,36);
-    background: linear-gradient(160deg, rgba(223,94,36,1) 42%, rgba(192,4,37,1) 100%);
+    background: rgb(158,72,33);
+    background: linear-gradient(160deg, rgba(158,72,33,1) 42%, rgba(84,26,0,1) 100%);
     background-repeat: no-repeat;
     min-height: 100vh;
     font-family: "Lato", serif;

@@ -8,10 +8,8 @@ export default {
     extend: { 
       colors: {
         'orange': {
-          'tn': '#DF5E24'
-        },
-        'red': {
-          'tn': '#C00425'
+          'light-tn': '#9e4821',
+          'dark-tn': '#541a00'
         }
       },
     },
