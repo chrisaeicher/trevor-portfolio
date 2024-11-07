@@ -1,5 +1,8 @@
 import './App.css'
 import TREVOR from './images/trevor.jpg';
+import Github from './icons/Github';
+import Gitlab from './icons/Gitlab';
+import LinkedIn from './icons/LinkedIn';
 
 function App() {
   const certs = [
@@ -35,8 +38,13 @@ function App() {
           <div className='flex flex-col'>
             <span className='text-orange-light-tn text-3xl'>Hi, I'm</span>
             <h1 className='text-4xl text-white'>Trevor Nuckles</h1>
-            <p className='mt-8'>I'm a skilled IT professional with a Bachelor of Science in Information Technology and experience in programming, systems management, and team leadership.</p>
-            <a className='w-fit px-4 py-2 rounded-lg mt-4 font-semibold transition bg-orange-light-tn hover:bg-orange-dark-tn' href='resume_nuckles_trevor.pdf' download={true}>Download my resume</a>
+            <p className='mt-8'>Skilled IT professional with a Bachelor of Science in Information Technology with an emphasis in cybersecurity and information assurance. Experience in programming, scripting, and automation, as well as systems management and team leadership. Proficient in Python and learning Go. Effective at enhancing operational efficiency through automation, reducing processing times, and optimizing resource utilization.</p>
+            <div className='flex mt-8 items-center gap-4'>
+              <a className='w-fit px-4 py-2 rounded-lg font-semibold transition bg-orange-light-tn hover:bg-orange-dark-tn' href='resume_nuckles_trevor.pdf' download={true}>Download my resume</a>
+              <a href='https://github.com/tnuckles' target='_blank'><Github /></a>
+              <a href='https://gitlab.com/trevor_nuckles' target='_blank'><Gitlab /></a>
+              <a href="https://www.linkedin.com/in/tnuckles/" target='_blank'><LinkedIn /></a>
+            </div>
           </div>
           <img className='w-64 h-64 rounded-full' src={TREVOR} alt='Trevor Nuckles' />
         </div>
