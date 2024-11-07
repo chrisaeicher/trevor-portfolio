@@ -83,7 +83,7 @@ function App() {
 								<a href='basicinvite.com'>basicinvite.com</a>
 							</p>
 							<p className='text-orange-light-tn text-xs font-bold'>
-								Februrary 2021 - Present
+								February 2021 - Present
 							</p>
 						</div>
 						<div className='flex flex-col'>
@@ -103,7 +103,7 @@ function App() {
 								<a href='basicinvite.com'>Steton Technology (now RizePoint)</a>
 							</p>
 							<p className='text-orange-light-tn text-xs font-bold'>
-								Janurary 2015 - September 2016
+								January 2015 - September 2016
 							</p>
 						</div>
 					</div>
