@@ -30,7 +30,7 @@ function App() {
   ];
   return (
     <div className='App flex justify-center'>
-      <main className='flex flex-col py-24 items-center h-screen w-5/6 sm:w-3/4 md:w-5/6 max-w-[2556px] bg-zinc-900 shadow-black shadow-2xl'>
+      <main className='flex flex-col py-24 items-center min-h-screen w-5/6 sm:w-3/4 md:w-5/6 max-w-[2556px] bg-zinc-900 shadow-black shadow-2xl'>
         <div className='flex flex-col md:flex-row w-5/6'>
           <div className='flex flex-col'>
             <span className='text-orange-tn text-3xl'>Hi, I'm</span>
